@@ -1,0 +1,579 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* fronmt start */
+
+.main{
+    background-image: radial-gradient(
+        rgba(255, 161, 74, 0.896),
+        rgba(218, 67, 67, 0.901)), url(images/career6.jpg);
+        width: 100%;
+        height: 100vh;
+}
+.main h1{
+    
+font-size: 3.5rem;
+font-family: Times, serif;
+color: rgb(6, 5, 5);
+font-weight: 500;
+}
+.main .line p{
+    font-size:1.6rem;
+    color:rgb(45, 43, 43);
+    font-family: Times, sans-serif;
+    font-weight: bolder;
+    
+}
+    .mbtn1{
+        height: 50px;
+        width: 35%;
+        outline: none;
+        border: none ;
+        color:rgb(7, 7, 7);
+        background: rgb(243, 130, 44);
+        font-size: larger;
+        border-radius: 50px;
+        transition: all 0.4s;
+        font-family: 'Montserrat';
+        
+    }
+    .mbtn1:hover{
+        background-color: rgb(249, 2, 2);
+    }
+    .line{
+        height: 2px;
+        width: 80%;
+        background:   rgb(8, 9, 9);
+        display: inline-block;
+    }
+  
+/* front  end  */
+
+/* singnup start. */
+
+.form-box1{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background: #f0a466b7;
+    padding: 10px 50px 60px; 
+    text-align: center;
+    border-radius: 20px;
+
+}
+.form-box1 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    position: relative;
+}
+.input-field1{
+    background: #e0dddd;
+     margin: 15px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 80px; 
+}
+.form-box1 p{
+    font-size:15px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.form-box1 button{
+border-radius: 30px;
+padding: 5px;
+margin: 5px;
+}
+.form-box1 button:hover{
+ 
+background: #f8461e;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    
+}
+.input-field1 i{
+    margin-left: 15px;
+    color: #999;
+}
+
+/* signup end */
+
+/* signin start */
+.form-box2 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    position: relative;
+}
+
+.input-field2{
+    background: #e0dddd;
+     margin: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 80px; 
+}
+.input-field2 i{
+    margin-left: 15px;
+    color: #999;
+}
+.form-box2{
+    width: 70%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background: #f0a466b7;
+    padding: 10px 20px 20px; 
+    text-align: center;
+    border-radius: 20px;
+ 
+}
+.form-box2 p{
+    font-size:15px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.form-box2 button{
+border-radius: 30px;
+padding: 10px;
+margin: 5px;
+}
+.form-box2 button:hover{
+ 
+    background: #f8461e;
+}
+/* signin end */
+
+body{
+    background-color: rgb(230, 176, 140);
+}
+
+/* home start */
+/* navbar */
+.logo{
+    font-size: 2.5rem;
+    font-weight:500;
+    color:rgb(0, 0, 0);
+    text-decoration:none;  
+    font-family: 'monsterrat';
+    margin-right: 250px;
+    margin-left: 40px;
+}
+ .logo span{
+    color:rgb(247, 19, 19);
+}
+.navbar{
+    background-color: #f4f0c0;
+}
+.nav-item a{
+    text-decoration:solid;
+    color:rgb(143, 89, 89);
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 18px;
+    transition: all 0.4s;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+
+}
+
+.navbar-toggler{
+font-size:20px ;
+color: rgb(0, 0, 0);
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+} 
+
+
+#profile-btn{
+    font-size:1.5rem;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: 5px;
+    margin-left: 20px;
+ }
+ .home img{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+ }
+ 
+ 
+/* footer */
+.footer{
+    background-color: #f4f0c0;
+    margin-top: 553px;
+    text-align: center;
+    
+   } 
+   .footer h3{
+    padding: 10px;
+    text-align: center;
+    
+   }
+   .s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    padding-top: 10px;
+    transition: all 0.3s;
+    cursor:pointer;
+   }
+   .s1:hover{
+background-color: rgb(248, 100, 42);
+border: none;
+   }
+ 
+    .footer .credit{
+        /* text-align: center; */
+        padding: .5rem .5rem;
+        margin-top: .5rem;
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: #f20303;
+        border-top: .2rem solid rgb(242, 139, 91);
+    }
+    .footer .credit span{
+    color: var(--black);
+    }
+    
+    
+
+
+    /* technical */
+    .course h1{
+text-align: center;
+    }
+    .course {
+    margin-top:100px;
+    color: rgb(0, 0, 0);
+    }
+    
+    
+    .about h1{
+        margin-top: 150px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size:xx-large;
+color:rgb(0, 0, 0);
+    }
+    .about h4{
+        margin-left: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        font-size: x-large;
+        margin-right: 30px;
+    }
+    
+    .about p{
+        margin-left: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+        margin-right: 30px;
+    }
+    
+
+    /* roadmaps */
+    .road{
+        margin-left: 160px;
+        margin-right: 40px;
+    }
+    .buto{
+        padding: 10px 20px 10px 20px;
+        margin:30px;
+        border-radius: 10px;
+        color: #030303;
+        font-weight: bold;
+        
+
+    }
+    .buto:hover{
+        background: #7a91ee;
+    }
+
+    .roadmap h1{
+text-align: center;
+color:rgb(0, 0, 0);;
+    }
+    .roadmap p,h4{
+        margin-left: 30px;
+        color: rgb(0, 0, 0);
+        margin-right: 30px;
+    }
+    .rdtext{
+        color: rgb(4, 4, 4);
+        font-family: 'montserrat';
+        font-size: medium;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+    /* contact */
+
+
+    .wrapper {
+        height: 100vh;
+        margin-top: 50px;
+        background-color:rgb(230, 176, 140);
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 100vh;
+
+    }
+    
+    .contact-us {
+        margin-top: 50px;
+        margin-bottom: 50px
+    }
+    
+    .contact-us h3,
+    p {
+        color: #040404
+    }
+    
+    .address {
+        margin-top: 14px;
+        margin-left: 10px
+    }
+    
+    .address span {
+        color: #020202;
+    }
+    
+    .icons {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        display:flex;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    
+    .icons i {
+        font-size: 20px
+    }
+    
+    .forms {
+        padding: 20px
+    }
+    
+    .inputs input {
+        margin-bottom: 13px;
+        border: none;
+        border-bottom: 2px solid #eee
+    }
+    
+    .inputs input:focus {
+        margin-bottom: 13px;
+        border: none;
+        border-bottom: 2px solid #7B1FA2;
+        box-shadow: none
+    }
+    
+    .inputs textarea {
+        margin-bottom: 13px;
+        border: none;
+        border-bottom: 2px solid #eee;
+        width: 100%;
+        resize: none
+    }
+    
+    .inputs textarea:focus {
+        margin-bottom: 13px;
+        border: none;
+        border-bottom: 2px solid #7B1FA2;
+        box-shadow: none;
+        resize: none
+    }
+    
+    .form-control {
+        padding: .375rem .25rem
+    }
+/* profile */
+.form-box3{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgb(230, 176, 140);
+    padding: 10px 50px 60px; 
+    text-align: center;
+    border-radius: 20px;
+
+}
+.form-box3 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    position: relative;
+}
+.input-field3{
+    background: #e0dddd;
+     margin: 15px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 80px; 
+}
+.form-box3 p{
+    font-size:15px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.form-box3 button{
+border-radius: 30px;
+padding: 5px;
+margin: 5px;
+}
+.form-box3 button:hover{
+ 
+background:rgb(230, 176, 140);
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    
+}
+.input-field3 i{
+    margin-left: 15px;
+    color: #999;
+}
+
+.form-box4{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(230, 176, 140);
+    padding: 10px 50px 60px; 
+    text-align: center;
+    border-radius: 20px;
+
+}
+.form-box4 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    position: relative;
+}
+.input-field4{
+    background: #e0dddd;
+     margin: 15px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 80px; 
+}
+.form-box4 p{
+    font-size:15px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.form-box4 button{
+border-radius: 30px;
+padding: 5px;
+margin: 5px;
+}
+.form-box4 button:hover{
+ 
+background: rgb(230, 176, 140);
+}
+
+.input-field4 i{
+    margin-left: 15px;
+    color: #999;
+}
+
+
+/* subjects */
+
+.subject{
+    margin-top: 200px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
+
+
+
+/* questionaire */
+
+ .c1{
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 176, 140);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 190vh;
+    margin: 0;
+}
+
+.subject-selector {
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 30px;
+    background-color: rgb(230, 176, 140);
+    box-shadow: 0 0 10px rgb(230, 176, 140);
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+option {
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    margin-top: 20px;
+}
